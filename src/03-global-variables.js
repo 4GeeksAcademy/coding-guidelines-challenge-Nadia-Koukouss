@@ -9,11 +9,11 @@ function subtract(x, y) {
 }
 
 function accumulate(x) {
-    result += x;
+  result += x;
 }
 
 add(5, 10);
 console.log(result);
-accumulate(6);
 subtract(6, 12);
+accumulate(6);
 console.log(result);
